@@ -1,0 +1,81 @@
+/* Сброс стандартных стилей */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Основной фон страницы */
+body {
+    font-family: 'Georgia', serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Шапка газеты */
+header {
+    background-color: #2c2c2c;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 4px solid #ccc;
+}
+
+header h1 {
+    font-family: 'Garamond', serif;
+    font-size: 4rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    margin-bottom: 10px;
+}
+
+header .subtitle {
+    font-size: 1.5rem;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+/* Основной контент */
+main {
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* Стиль для статьи */
+.article {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.article h2 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.article p {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+/* Для выделения текста с датой */
+.article strong {
+    font-weight: bold;
+}
+
+/* Стиль для футера */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #2c2c2c;
+    color: #fff;
+    font-size: 1rem;
+}
